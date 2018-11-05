@@ -1,0 +1,7 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://montblancsolutions.com/beta/index.php/$1 [R,L]
+</IfModule>
+# END WordPress
